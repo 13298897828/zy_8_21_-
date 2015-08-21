@@ -7,11 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Woman.h"
+#import "Man.h"
+#import "XieYi.h"
+#import "NSMutableArray+NSMuTableArrayDescSort.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Man * man = [[Man alloc]init];
+        Woman * women = [[Woman alloc]init];
+        [man setWomen:women];
+        [man WantEat:@"肉"];
+        [man WantSleep:@"meinv"];
+        [man WantBeatDouDou];
+        
+        NSMutableArray * arr =[NSMutableArray arrayWithObjects:@"13",@"34",@"23",@"45",@"54", nil];
+        [arr  NSMuTableArrayDescSort:arr ];
+        NSLog(@"%@",arr);
+        
+        
+        
     }
     return 0;
 }
