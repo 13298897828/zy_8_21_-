@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		145EE3641B873A76002A2013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EE3631B873A76002A2013 /* main.m */; };
+		145EE36D1B873B38002A2013 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EE36C1B873B38002A2013 /* Man.m */; };
+		145EE3701B873C53002A2013 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EE36F1B873C53002A2013 /* Woman.m */; };
+		145EE3731B8741F2002A2013 /* NSMutableArray+NSMuTableArrayDescSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EE3721B8741F2002A2013 /* NSMutableArray+NSMuTableArrayDescSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		145EE3601B873A76002A2013 /* zy_8_21_协议 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "zy_8_21_协议"; sourceTree = BUILT_PRODUCTS_DIR; };
 		145EE3631B873A76002A2013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		145EE36A1B873A8E002A2013 /* XieYi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XieYi.h; sourceTree = "<group>"; };
+		145EE36B1B873B38002A2013 /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		145EE36C1B873B38002A2013 /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		145EE36E1B873C53002A2013 /* Woman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		145EE36F1B873C53002A2013 /* Woman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		145EE3711B8741F2002A2013 /* NSMutableArray+NSMuTableArrayDescSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NSMuTableArrayDescSort.h"; sourceTree = "<group>"; };
+		145EE3721B8741F2002A2013 /* NSMutableArray+NSMuTableArrayDescSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NSMuTableArrayDescSort.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				145EE3631B873A76002A2013 /* main.m */,
+				145EE3711B8741F2002A2013 /* NSMutableArray+NSMuTableArrayDescSort.h */,
+				145EE3721B8741F2002A2013 /* NSMutableArray+NSMuTableArrayDescSort.m */,
+				145EE36E1B873C53002A2013 /* Woman.h */,
+				145EE36F1B873C53002A2013 /* Woman.m */,
+				145EE36B1B873B38002A2013 /* Man.h */,
+				145EE36C1B873B38002A2013 /* Man.m */,
+				145EE36A1B873A8E002A2013 /* XieYi.h */,
 			);
 			path = "zy_8_21_协议";
 			sourceTree = "<group>";
@@ -118,6 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145EE3731B8741F2002A2013 /* NSMutableArray+NSMuTableArrayDescSort.m in Sources */,
+				145EE3701B873C53002A2013 /* Woman.m in Sources */,
+				145EE36D1B873B38002A2013 /* Man.m in Sources */,
 				145EE3641B873A76002A2013 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
